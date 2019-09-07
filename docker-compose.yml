@@ -18,6 +18,7 @@ services:
     build: ./ghost
     volumes:
       - ghost:/var/lib/ghost
+      - ./ghost/data:/data
     environment:
       - NODE_ENV=production
     restart: always

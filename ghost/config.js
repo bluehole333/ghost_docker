@@ -13,7 +13,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(process.env.GHOST_CONTENT, '/var/lib/ghost/data/ghost.db')
+                filename: path.join(process.env.GHOST_CONTENT, '/data/ghost.db')
             },
             debug: false
         },
@@ -33,7 +33,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(process.env.GHOST_CONTENT, '/var/lib/ghost/data/ghost-dev.db')
+                filename: path.join(process.env.GHOST_CONTENT, '/data/ghost-dev.db')
             },
             debug: false
         },
